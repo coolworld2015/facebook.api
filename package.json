@@ -1,0 +1,8 @@
+{
+"scripts": {
+    "postinstall": "npm start"
+  },
+  "dependencies": {
+    "node-static": "~0.7.7"
+  }
+}

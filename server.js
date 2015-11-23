@@ -4,14 +4,14 @@
 //node server.js
 
 var static = require('node-static');
-
+var port = 8080;
 var file = new static.Server('.');
  
 require('http').createServer(function (request, response) {
     request.addListener('end', function () {
-        // 
-        // Serve files! 
-        // 
-        file.serve(request, response);
+        file.serve(request, response, function (err, result) {
+		});
     }).resume();
-}).listen(8000);
+}).listen(port);
+
+console.log('Server node-static running at port:', port);
