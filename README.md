@@ -1,7 +1,7 @@
 # Facebook API
-git clone https://github.com/wintermute2015/facebook_api.git
+git clone https://github.com/coolworld2015/facebook.api.git
 -------------------------------------------------------------------------------------------------
-git config user.name "wintermute2015"
+git config user.name "coolworld2015"
 -------------------------------------------------------------------------------------------------
 git config user.email "wintermute2015@ukr.net"
 -------------------------------------------------------------------------------------------------
